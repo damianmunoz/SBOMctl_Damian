@@ -5,9 +5,10 @@ components for trustworthy software supply chain infrastructure.
 
 ## Contents
 
-This repo hosts the following prototype reference implementations:
-
-* `privateSBOMExchange`: a system for privacy-preserving SBOMs
+/debinfo_dispatcher -> Contains scripts that astrify debinfo files. Implemented in Go and Python. 
+/parser_backup -> Backup folder of "debinfo_dispatcher"
+/moonshot -> Contains scripts pertaining to Abhishek Reddypall's paper -- "Darkfiles"
+/sbom_data -> Contains in-the-lab and in-the-wild SBOMs 
 
 ## Disclaimer
 
